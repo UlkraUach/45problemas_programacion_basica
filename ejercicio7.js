@@ -12,7 +12,6 @@ var recursiveAsyncReadLine = function () {
                 case "/end":
                     console.log("Total: " + contador);
                     return readline.close();
-                    break;
                 default:
                     ++contador;
             }
