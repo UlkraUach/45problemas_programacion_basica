@@ -3,7 +3,7 @@ const readline = require('readline').createInterface({
     output: process.stdout
 })
   
-readline.question(`Inserte número: `, inp => {
+readline.question("Inserte número: ", inp => {
     action(inp);
     readline.close()
 })
