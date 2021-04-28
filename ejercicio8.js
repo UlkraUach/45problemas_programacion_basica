@@ -14,6 +14,7 @@ function action(ch){
     switch (ch) {
         case "N": case "S":
             console.log("Te lo permito");
+            break;
         default:
             console.log("No te lo permito");
     }
